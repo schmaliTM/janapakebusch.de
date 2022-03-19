@@ -1,6 +1,6 @@
 # Meine 2010 gestaltete Version von janapakebusch.de
 
-Die Inhalte sind nicht mehr aktuell.
+Die Inhalte sind nicht mehr aktuell.  
 Ich habe die Webseite zu Lernzwecken auf den aktuellen Webstandard gebracht.
 
 ## Gebaut mit
