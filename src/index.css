@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'Trajan';
+    src: url('assets/fonts/haar.otf');
+}
+@font-face{
+    font-family: 'Haar';
+    src: url('assets/fonts/haar.otf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-box {
+        @apply border border-gray-100 p-5 bg-white rounded-md hover:drop-shadow-md mb-6;
+    }
+    .simple-form {
+        @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+    }
+    .nav-btn {
+        @apply text-center w-32 pt-1 mr-4 border border-primary rounded-lg bg-gradient-to-b from-white to-sky-100 hover:underline hover:shadow-lg;
+    }
+}  
