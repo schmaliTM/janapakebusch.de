@@ -1,122 +1,85 @@
 <template>
-  <main>
-    <section class="card-box">
-      <h1 class="text-primary text-xl mb-4">Kurzbehandlungen</h1>
+    <main class="text-sm sm:text-base">
+        <section class="card-box">
+            <h1 class="text-primary text-xl mb-4 mt-6 sm:mt-0">Kurzbehandlungen</h1>
 
-      <table class="border-collapse table-auto w-full">
-        <tbody>
-          <tr>
-            <td colspan="2">Schulter-Nackenmassage</td>
-            <td>15 min</td>
-            <td>€ 15,00</td>
-          </tr>
-          <tr>
-            <td colspan="2">Schulter-Nacken- /Kopfmassage</td>
-            <td>20 min</td>
-            <td>€ 19,00</td>
-          </tr>
-          <tr>
-            <td colspan="2">Massage beider Arme o. Beine</td>
-            <td>20 min</td>
-            <td>€ 19,00</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+            <div class="grid grid-cols-preisliste border-collapse table-auto w-full">
+                <div class="bg-grau">Schulter-Nackenmassage</div>
+                <div class="bg-grau text-right">15 min</div>
+                <div class="bg-grau text-right">€ 15,00</div>
 
-    <section class="card-box">
-      <h1 class="text-primary text-xl mb-4">Wellnessmassagen</h1>
+                <div class="mt-2">Schulter-Nacken- /Kopfmassage</div>
+                <div class="mt-2 text-right">20 min</div>
+                <div class="mt-2 text-right">€ 19,00</div>
 
-      <table class="border-collapse table-auto w-full">
-        <tbody>
-          <tr>
-            <td colspan="2">Ganzkörpermassage</td>
-            <td>60 min</td>
-            <td>€ 45,00</td>
-          </tr>
-          <tr>
-            <td colspan="2">Aromaöl-Rückenmassage</td>
-            <td>30 min</td>
-            <td>€ 25,00</td>
-          </tr>
-          <tr>
-            <td>Entspannende Fußmassage</td>
-            <td class="text-sm italic">inkl. Fußbad und Peeling</td>
-            <td>25 min</td>
-            <td>€ 23,00</td>
-          </tr>
-          <tr>
-            <td>Intensive Rückenmassage</td>
-            <td class="text-sm italic">Nacken – Schulter – Rücken – Gesäß</td>
-            <td>45 min</td>
-            <td>€ 35,00</td>
-          </tr>
-          <tr>
-            <td>Hot-Stone-Massage</td>
-            <td class="text-sm italic">inkl. Nachruhezeit</td>
-            <td>90 min</td>
-            <td>€ 70,00</td>
-          </tr>
-          <tr>
-            <td>Kräuterstempel-Massage</td>
-            <td class="text-sm italic">inkl. Nachruhezeit</td>
-            <td>70 min</td>
-            <td>€ 55,00</td>
-          </tr>
-          <tr>
-            <td>Hot-Stone-Rückenmassage</td>
-            <td class="text-sm italic">inkl. Nachruhezeit</td>
-            <td>45 min</td>
-            <td>€ 40,00</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+                <div class="bg-grau mt-2">Massage beider Arme o. Beine</div>
+                <div class="bg-grau mt-2 text-right">20 min</div>
+                <div class="bg-grau mt-2 text-right">€ 19,00</div>
+            </div>
+        </section>
 
-    <section class="card-box">
-      <h1 class="text-primary text-xl mb-4">Energetische Behandlungen</h1>
+        <section class="card-box">
+            <h1 class="text-primary text-xl mb-4">Wellnessmassagen</h1>
 
-      <table class="border-collapse table-auto w-full">
-        <tbody>
-          <tr>
-            <td>Ohrkerzenbehandlung</td>
-            <td class="text-sm italic">Indianische Entspannungszeremonie</td>
-            <td>30 min</td>
-            <td>€ 25,00</td>
-          </tr>
-          <tr>
-            <td colspan="2">Meridiansystem und Wirbelsäule</td>
-            <td>60 min</td>
-            <td>€ 45,00</td>
-          </tr>
-          <tr>
-            <td colspan="2">Energetische Entspannungsbehandlung</td>
-            <td>30 min</td>
-            <td>€ 25,00</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
+            <div class="grid grid-cols-preisliste border-collapse table-auto w-full">
+                <div class="bg-grau">Ganzkörpermassage</div>
+                <div class="bg-grau text-right">60 min</div>
+                <div class="bg-grau text-right">€ 45,00</div>
+
+                <div class="mt-2">Aromaöl-Rückenmassage</div>
+                <div class="text-right">30 min</div>
+                <div class="text-right">€ 25,00</div>
+
+                <div class="bg-grau mt-2">Entspannende Fußmassage</div>
+                <di class="bg-grau mt-2 text-right">25 min</di>
+                <div class="bg-grau mt-2 text-right">€ 23,00</div>
+                <div class="bg-grau col-span-3 text-xs sm:text-sm italic">
+                    inkl. Fußbad und Peeling
+                </div>
+
+                <div class="mt-2">Intensive Rückenmassage</div>
+                <div class="text-right">45 min</div>
+                <div class="text-right">€ 35,00</div>
+                <div class="col-span-3 text-xs sm:text-sm italic">
+                    Nacken – Schulter – Rücken – Gesäß
+                </div>
+
+                <div class="bg-grau mt-2">Hot-Stone-Massage</div>
+                <div class="bg-grau mt-2 text-right">90 min</div>
+                <div class="bg-grau mt-2 text-right">€ 70,00</div>
+                <div class="bg-grau col-span-3 text-xs sm:text-sm italic">inkl. Nachruhezeit</div>
+
+                <div class="mt-2">Kräuterstempel-Massage</div>
+                <div class="text-right">70 min</div>
+                <div class="text-right">€ 55,00</div>
+                <div class="col-span-3 text-xs sm:text-sm italic">inkl. Nachruhezeit</div>
+
+                <div class="bg-grau mt-2">Hot-Stone-Rückenmassage</div>
+                <div class="bg-grau mt-2 text-right items-center">45 min</div>
+                <div class="bg-grau mt-2 text-right">€ 40,00</div>
+                <div class="bg-grau col-span-3 text-xs sm:text-sm italic">inkl. Nachruhezeit</div>
+            </div>
+        </section>
+
+        <section class="card-box">
+            <h1 class="text-primary text-xl mb-4">Energetische Behandlungen</h1>
+
+            <div class="grid grid-cols-preisliste border-collapse table-auto w-full align-center">
+                <div class="bg-grau">Ohrkerzenbehandlung</div>
+                <div class="bg-grau text-right">30 min</div>
+                <div class="bg-grau text-right">€ 25,00</div>
+                <div class="bg-grau col-span-3 text-xs sm:text-sm italic">
+                    Indianische Entspannungszeremonie
+                </div>
+
+                <div class="mt-2">Meridiansystem und Wirbelsäule</div>
+                <div class="text-right">60 min</div>
+                <div class="text-right">€ 45,00</div>
+
+                <div class="bg-grau mt-2">Energetische Entspannungsbehandlung</div>
+                <div class="bg-grau mt-2 text-right">30 min</div>
+                <div class="bg-grau mt-2 text-right">€ 25,00</div>
+            </div>
+        </section>
+    </main>
 </template>
-
-<style scoped lang="scss">
-tr:nth-child(odd) {
-  background-color: hsl(0, 6%, 95%);
-}
-td:nth-child(1) {
-    width: 345px;
-}
-
-td:nth-last-child(1) {
-    width: 90px;
-    text-align: right;
-    padding-right: 1rem;
-}
-
-td:nth-last-child(2) {
-    width: 90px;
-    text-align: right;
-    padding-right: 1rem;
-}
-</style>

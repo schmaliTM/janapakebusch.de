@@ -1,10 +1,10 @@
-@font-face{
-    font-family: 'Trajan';
-    src: url('assets/fonts/haar.otf');
+@font-face {
+    font-family: "Trajan";
+    src: url("assets/fonts/haar.otf");
 }
-@font-face{
-    font-family: 'Haar';
-    src: url('assets/fonts/haar.otf');
+@font-face {
+    font-family: "Haar";
+    src: url("assets/fonts/haar.otf");
 }
 
 @tailwind base;
@@ -13,12 +13,26 @@
 
 @layer components {
     .card-box {
-        @apply border border-gray-100 p-5 bg-white rounded-md hover:drop-shadow-md mb-6;
+        @apply sm:border border-gray-100 px-9 py-5 sm:p-5 bg-white rounded-md sm:hover:drop-shadow-md mb-6;
     }
     .simple-form {
         @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
     }
     .nav-btn {
-        @apply text-center w-32 pt-1 mr-4 border border-primary rounded-lg bg-gradient-to-b from-white to-sky-100 hover:underline hover:shadow-lg;
+        @apply text-center px-3 pt-1 border border-primary rounded-lg bg-gradient-to-b from-white to-sky-100 hover:underline hover:shadow-lg;
     }
-}  
+}
+
+.background-gradient {
+    background-size: 100% 1000px;
+    background-image: linear-gradient(
+        to bottom,
+        #395f9b 0%,
+        rgb(112, 147, 193) 20%,
+        rgb(159, 194, 226) 40%,
+        rgb(235, 245, 250) 75%,
+        rgb(255, 255, 255) 100%
+    );
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+}
